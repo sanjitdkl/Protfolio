@@ -9,7 +9,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#hero" },
+    { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
@@ -23,7 +23,11 @@ const Navbar = () => {
           className="text-3xl font-extrabold text-white tracking-wide flex justify-center"
           data-aos="fade-right"
         >
-          <img src={sd} alt="" className="h-10 w-10 gap-2" />
+          <img
+            src={sd}
+            alt=""
+            className="h-10 w-10 gap-2 justify-center items-center"
+          />
           <div>Sanjit Dhakal</div>
         </div>
 

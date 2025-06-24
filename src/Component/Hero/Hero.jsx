@@ -40,7 +40,7 @@ const Hero = () => {
         data-aos="fade-left"
       >
         <img
-          src="https://undraw.co/api/illustrations/undraw_static_assets.svg"
+          src=""
           alt="Developer Illustration"
           className="w-72 md:w-96 rounded-xl shadow-lg border-4 border-blue-300"
         />
