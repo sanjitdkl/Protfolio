@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Lottie from "lottie-react";
-
+import Sanjit from "../../../public/sanjit.jpg.png";
 const Hero = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -40,9 +40,9 @@ const Hero = () => {
         data-aos="fade-left"
       >
         <img
-          src=""
+          src={Sanjit}
           alt="Developer Illustration"
-          className="w-72 md:w-96 rounded-xl shadow-lg border-4 border-blue-300"
+          className="w-72 md:w-96 rounded-full shadow-lg border border-blue-300"
         />
       </div>
     </section>
