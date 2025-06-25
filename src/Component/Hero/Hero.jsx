@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-blue-100 via-white to-pink-100 p-8"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-gray-100 via-white to-cyan-100 p-8"
     >
       {/* Left: Text */}
       <div

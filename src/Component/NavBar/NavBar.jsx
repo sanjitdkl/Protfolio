@@ -37,7 +37,7 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-white font-medium text-lg hover:text-yellow-300 transition duration-300"
+              className="text-white font-medium text-lg hover:text-yellow-300 transition duration-300 hover:underline"
               data-aos="fade-down"
             >
               {link.name}
