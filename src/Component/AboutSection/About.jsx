@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const skillsData = [
   {
@@ -57,15 +58,26 @@ const About = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 text-center" id="about">
+    <div className="max-w-5xl mx-auto px-4 py-16 text-center" id="about">
       <h1 className="text-4xl font-bold mb-4" data-aos="fade-down">
         Hi, I'm Sanjit Dhakal 👋
       </h1>
-      <p className="text-gray-600 text-lg mb-10" data-aos="fade-up">
+
+      <p className="text-gray-600 text-lg mb-6" data-aos="fade-up">
         I’m a passionate frontend developer who loves building responsive and
         interactive web apps. I enjoy turning ideas into reality using modern
         technologies.
       </p>
+
+      {/* Lottie Animation */}
+      <div className="flex justify-center mb-10" data-aos="zoom-in">
+        <Player
+          autoplay
+          loop
+          src="https://lottie.host/9e1137a5-9055-43be-9018-54dcf37ab90c/c1K5UEdlil.json"
+          style={{ height: "280px", width: "280px" }}
+        />
+      </div>
 
       <h2 className="text-2xl font-semibold mb-6" data-aos="fade-right">
         Skills
